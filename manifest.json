@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Quiniela",
+  "description": "Parsear partidos quiniela",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://www.loteriasyapuestas.es/es/la-quiniela/sorteos/*"
+				,"http://loteriasyapuestas.es/es/la-quiniela/sorteos/*"
+				],
+      "js": ["jquery-1.4.2.min.js", "parsear.js"]
+    }
+  ]
+}
